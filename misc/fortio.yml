@@ -16,7 +16,7 @@ kind: Deployment
 metadata:
   name: fortio
 spec:
- selector:
+  selector:
     matchLabels:
       app: sampleapp
   replicas: 1
