@@ -18,7 +18,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: sampleapp
+      app: fortio
   replicas: 1
   template:
     metadata:
